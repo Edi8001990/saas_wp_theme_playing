@@ -1,0 +1,19 @@
+// $primary: black;
+// $secondary: green;
+
+
+// body{
+//     background: $primary;
+// }
+
+$theme-colors:(
+    "primary": #0074d9,
+    "danger": #ff4136
+);
+
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import 'colours';
+@import 'header';
+@import 'content';
